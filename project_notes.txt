@@ -1,0 +1,6 @@
+Project Overview:
+
+- Objective: Develop an advanced AI assistant named F.R.I.D.A.Y. for seamless OS integration.
+- Core Features: Hardware control, media management, navigation, real-time data retrieval, and file handling.
+- Current Status: Core functionalities implemented; testing ongoing.
+- Next Steps: Optimize performance, expand knowledge base, and integrate user-specific customization.
