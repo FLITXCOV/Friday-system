@@ -9,11 +9,7 @@ A Tony Stark-inspired AI assistant split into two cooperating pieces:
 | **MCP Server** (`uv run friday`) | A [FastMCP](https://github.com/jlowin/fastmcp) server that exposes tools (news, web search, system info, …) over SSE. Think of it as the Stark Industries backend — it does the actual work. |
 | **Voice Agent** (`uv run friday_voice`) | A [LiveKit Agents](https://github.com/livekit/agents) voice pipeline that listens to your microphone, reasons with an LLM (Gemini 2.5 Flash by default), and speaks back with OpenAI TTS — all while pulling tools from the MCP server in real time. |
 
-Demo: [Instagram reel](https://www.instagram.com/p/DW2HjYtkwg_/)
 
-[![Demo Video Guide](https://img.youtube.com/vi/mMY9swqe3BI/maxresdefault.jpg)](https://www.youtube.com/watch?v=mMY9swqe3BI)
-
----
 
 ## How it works
 
@@ -66,8 +62,8 @@ friday-tony-stark-demo/
 ### 2. Clone & install
 
 ```bash
-git clone https://github.com/SAGAR-TAMANG/friday-tony-stark-demo.git
-cd friday-tony-stark-demo
+git clone https://github.com/FLITXCOV/Friday-system.git
+cd Friday-system
 uv sync          # creates .venv and installs all dependencies
 ```
 
@@ -165,3 +161,9 @@ The MCP server will pick it up on next start.
 ## License
 
 MIT
+
+---
+
+## Acknowledgements
+
+This project was built with reference and inspiration from [Sagar Tamang's FRIDAY demo](https://github.com/SAGAR-TAMANG/friday-tony-stark-demo). Massive thanks for the foundational boilerplate!
